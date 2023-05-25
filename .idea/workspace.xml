@@ -33,9 +33,6 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="a63384f7-3155-467b-8336-b4435137584f" />
-  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -70,7 +67,7 @@
     "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -88,6 +85,7 @@
       <workItem from="1684989312383" duration="5409000" />
       <workItem from="1684996503395" duration="30000" />
       <workItem from="1684996564685" duration="1652000" />
+      <workItem from="1685002666484" duration="513000" />
     </task>
     <task id="LOCAL-00001" summary="是">
       <created>1684994012119</created>

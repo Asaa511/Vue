@@ -1,28 +1,26 @@
 <template>
   <div>
-    <a href="#" class="btn btn-primary" @click="goToJava">Java</a>
-    <a href="#" class="btn btn-primary" @click="goToPHP">PHP</a>
+    <div>
+      <router-link class="btn btn-primary" to="/course/Java">Java</router-link>
+      <router-link class="btn btn-primary" to="/course/html">html+css</router-link>
+      <router-link class="btn btn-primary" to="/course/vue">vue</router-link>
+      <router-link class="btn btn-primary" to="/course/js">js</router-link>
+    </div>
+    <div>
+      <router-view></router-view>
+    </div>
   </div>
+
+
 </template>
 
 <script>
 export default {
-  name: "MyCourse",
-  methods: {
-    goToJava() {
-      // 执行 Java 页面的跳转逻辑
-      this.$router.push("/java");
-    },
-    goToPHP() {
-      // 执行 PHP 页面的跳转逻辑
-      this.$router.push("/php");
-    },
-  },
+  name: "MyCourse"
 };
 </script>
 
 <style scoped>
-/* 添加需要的样式 */
 .btn {
   margin-right: 10px;
 }

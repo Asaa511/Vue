@@ -1,46 +1,27 @@
+
+import ComputeDec from './components/ComputeDec.vue';
+
 <template>
-  <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Logo</a>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <router-link class="nav-link" to="/index">首页</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/course">课程</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/user">用户</router-link>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <hr>
-    <div class="container">
-      <router-view></router-view>
+    <div id="app">
+        <h2>x的值为：{{$store.state.x}}</h2>
+        <hr>
+        <ComputeInc></ComputeInc>
+        <hr>
+        <ComputeDec></ComputeDec>
     </div>
-  </div>
 </template>
 
 <script>
-import Vue from "vue";
-import VueRouter from "vue-router";
-import routes from './routes/index';
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.js';
+import ComputeInc from './components/ComputeInc.vue';
+import ComputeDec from './components/ComputeDec.vue';
+import store from './store';
 
-Vue.use(VueRouter);
-const router = new VueRouter({
-  routes
-});
-
-export default {
-  name:'App',
-  router
-};
+ export default {
+    name:'App',
+    components:{
+        ComputeDec,
+        ComputeInc
+    },
+    store
+ }
 </script>
-
-<style>
-
-</style>

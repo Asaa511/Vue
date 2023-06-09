@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d957f717-6a93-490c-9063-f5d00cb43418" name="更改" comment="是" />
+    <list default="true" id="d957f717-6a93-490c-9063-f5d00cb43418" name="更改" comment="idea提交">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,14 +37,11 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="a63384f7-3155-467b-8336-b4435137584f" />
-  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="a63384f7-3155-467b-8336-b4435137584f" />
-        <option name="url" value="git@github.com:/Asaa511/Vue.git" />
+        <option name="accountId" value="c6a7fa20-8aa1-47eb-884f-3e408363ce6c" />
+        <option name="url" value="https://github.com/Asaa511/Vue.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -60,6 +61,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/Vue",
     "node.js.detected.package.eslint": "true",
@@ -88,6 +90,7 @@
       <workItem from="1684989312383" duration="5409000" />
       <workItem from="1684996503395" duration="30000" />
       <workItem from="1684996564685" duration="1652000" />
+      <workItem from="1685625860487" duration="285000" />
     </task>
     <task id="LOCAL-00001" summary="是">
       <created>1684994012119</created>
@@ -138,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684996376167</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="是">
+      <created>1685625997584</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685625997585</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
